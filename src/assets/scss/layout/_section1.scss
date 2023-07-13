@@ -1,0 +1,131 @@
+// section1
+#section1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .img {
+    width: 500vw;
+    height: 500px;
+    background-image: url(../../images/section1/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .text {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-40%);
+    color: #fff;
+    text-align: right;
+
+    .line {
+      width: 20vw;
+      height: 2px;
+      background-color: #fff;
+      display: block;
+
+      animation: line-in 0.7s ease-in-out 1 forwards;
+    }
+
+    ul {
+      padding-top: 1vw;
+    }
+
+    li {
+      font-size: 24px;
+      line-height: 1.2;
+      font-family: 'Rajdhani';
+    }
+  }
+
+  .arrow1 {
+    position: absolute;
+    left: 3%;
+    top: 6%;
+    width: 15vw;
+    height: 15vw;
+    background-image: url(../../images/section1/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+  }
+
+  .arrow2 {
+    position: absolute;
+    right: 3%;
+    bottom: 6%;
+    width: 15vw;
+    height: 15vw;
+    background-image: url(../../images/section1/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+  
+#canvas {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+  
+@media (max-width: 1000px) {
+  #section1 {
+  
+    .text {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 365px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .line {
+        width: 80vw;
+        margin-left: 12%;
+      }
+
+      ul {
+        margin-top: 20px;
+
+        li {
+          margin-right: 6.5%;
+          text-align: right;
+          font-size: 26px;
+        }
+      }
+    }
+    .arrow1,
+    .arrow2 {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #section1 {
+    .img {
+      width: 500vw;
+      height: 500px;
+    }
+    .text {
+      display: none;
+
+      .line {
+        display: none;
+      }
+
+      ul {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+// html
+html {
+  overflow-x: hidden;
+}
+
+// main
+#main {
+  overflow: hidden;
+}
+
+// vertical
+.vertical {
+  width: 100%;
+  height: 530.02vh;
+}
+
+// vertical2
+.vertical2 {
+  width: 100%;
+  height: 1113vh;
+}
+
+@media (max-width: 450px){
+  .vertical2 {
+      width: 100%;
+      height: 1272vh;
+  }
+}
+
+#horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000vw;
+}
+
+#horizontal > section {
+  width: 100vw;
+}
+
+
+// container
+.container {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+// blind    
+.blind {
+  position: absolute;
+  clip: rect(0,0,0,0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+
+// skip
+#skip {
+  position: relative;
+  z-index: 100000;
+}
+#skip a {
+  background-color: var(--color_body);
+  color: #fff;
+  position: absolute;
+  padding: 20px 40px;
+  left: -400px;
+  top: 5px;
+}
+#skip a:active,
+#skip a:focus {
+  left: 5px;
+}
+
+// // scrollbar
+// .scrollbar { 
+//     width: 250px;
+//     height: 250px;
+//     overflow-y: scroll;
+// }
+
+// /* 스크롤바의 폭 너비 */
+// .scrollbar::-webkit-scrollbar {
+//     width: 17px;  
+// }
+
+// .scrollbar::-webkit-scrollbar-thumb {
+//     background: rgb(196, 255, 107); /* 스크롤바 색상 */
+//     border-radius: 10px; /* 스크롤바 둥근 테두리 */
+// }
+
+// .scrollbar::-webkit-scrollbar-track {
+//     background: rgb(0, 0, 0);  /*스크롤바 뒷 배경 색상*/
+// }

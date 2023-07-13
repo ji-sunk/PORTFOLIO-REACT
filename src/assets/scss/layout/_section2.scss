@@ -1,0 +1,287 @@
+// section2
+#section2 {
+  width: 100%;
+  height: 160vh;
+  background-color: #000;
+  position: relative;
+
+  .name {
+      position: absolute;
+      left: 3%;
+      top: 0;
+
+      ul {
+          padding-top: 8vw;
+
+          li {
+          color: #C7FF61;
+          font-family: 'Squada One';
+          font-size: 10vw;
+          line-height: 0.8;
+          letter-spacing: -0.5vw;
+          }
+
+          li:last-child {
+          color: #DFDFDF;
+          }
+      }
+  }
+
+
+  .iam {
+      position: absolute;
+      right: 3%;
+      top: 28%;
+      color: #fff;
+      font-family: 'Squada One';
+      font-size: 10vw;
+      line-height: 0.8;
+      letter-spacing: -0.5px;
+      text-align: right;
+      display: block;
+  }
+
+  .introduce {
+      position: absolute;
+      font-size: 18px;
+      font-family: 'Chosunilbo_myungjo';
+      color: #fff;
+      text-align: right;
+      right: 3%;
+      top: 50%;
+      line-height: 1.6;
+
+      ul {
+          padding-top: 9vw;
+      }
+  }
+  
+  .imgText {
+      position: absolute;
+      bottom: 10%;
+      left: 13%;
+      .img {
+          width: 28vw;
+          height: 28vw;
+          background-image: url(../../images/section2/seolhee.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+      }
+      
+      .text {
+          margin-top: 50px;
+          ul {
+              text-align: center;
+
+              li {
+                  color: #fff;
+                  font-size: 1vw;
+                  line-height: 1.6;
+                  font-family: 'Chosunilbo_myungjo';
+              }
+          }
+      }
+  }
+   
+  .scroll {
+      position: absolute;
+      bottom: 10.5%;
+      right: 3%;
+      
+      .text {
+          display: flex;
+          justify-content: space-between;
+          text-align: center;
+          align-items: end;
+
+          span {
+              font-family: 'Rajdhani';
+              font-size: 18px;
+              color: #C7FF61;
+          }
+          .arrow {
+              width: 30px;
+              height: 40px;
+              background-image: url(../../images/section2/arrow.png);
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+          }
+      }
+
+      
+
+      .line {
+          width: 35vw;
+          height: 2px;
+          background-color: #C7FF61;
+          display: block;
+      }
+  
+      
+  }
+}
+
+
+@media (max-width: 1200px){
+  #section2 {
+      flex-direction: column;
+
+      .name {
+          ul {
+              li {
+                  font-size: 13vw;;
+              }
+          }
+      }
+      .iam {
+          font-size: 13vw;;
+      }
+  }
+}
+
+@media (max-width: 900px){
+  #section2 {
+      .introduce {
+          position: absolute;
+          font-size: 18px;
+          font-family: "Chosunilbo_myungjo";
+          color: #fff;
+          text-align: right;
+          right: 3%;
+          top: 45%;
+          line-height: 1.6;
+      }
+      .imgText {
+          position: absolute;
+          bottom: 90px;
+          right: 0;
+
+          .img {
+              width: 300px;
+              height: 300px;
+          }
+
+          .text {
+
+              ul {
+
+                  li {
+                      font-size: 18px;
+                      text-align: left;
+                  }
+              }
+              font-size: 18px;
+          }
+      }
+      .scroll {
+          display: none;
+      }
+  }
+}
+
+@media (max-width: 600px){
+  #section2 {
+      .name {
+          ul {
+              li {
+                  font-size: 22vw;
+              }
+          }
+      }
+      .iam {
+          font-size: 22vw;
+          top: 19%;
+      }
+      .introduce {
+          position: absolute;
+          font-size: 18px;
+          font-family: "Chosunilbo_myungjo";
+          color: #fff;
+          text-align: right;
+          right: 3%;
+          top: 38%;
+          line-height: 1.6;
+      }
+      .imgText {
+          position: absolute;
+          bottom: 90px;
+          right: 0;
+
+          .img {
+              width: 300px;
+              height: 300px;
+          }
+
+          .text {
+
+              ul {
+                  
+                  li {
+                      font-size: 18px;
+                      text-align: left;
+                  }
+              }
+              font-size: 18px;
+          }
+      }
+      .scroll {
+          display: none;
+      }
+  }
+}
+
+@media (max-width: 450px){
+  #section2 {
+      .name {
+          ul {
+              li {
+                  font-size: 22vw;
+              }
+          }
+      }
+      .iam {
+          font-size: 22vw;
+          top: 19%;
+      }
+      .introduce {
+          position: absolute;
+          font-size: 14px;
+          font-family: "Chosunilbo_myungjo";
+          color: #fff;
+          text-align: left;
+          left: 3%;
+          top: 36%;
+          line-height: 1.6;
+          // display: none;
+      }
+      .imgText {
+          position: absolute;
+          bottom: 70px;
+          left: 3.7%;
+
+          .img {
+              position: absolute;
+              bottom: 120px;
+              left: 12%;
+              width: 220px;
+              height: 220px;
+          }
+
+          .text {
+
+              ul {
+
+                  li {
+                      font-size: 14px;
+                      text-align: left;
+                  }
+              }
+          }
+      }
+      .scroll {
+          display: none;
+      }
+  }
+}

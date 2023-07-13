@@ -1,0 +1,29 @@
+// header
+#header h1 {
+  position: fixed;
+  left: 50px;
+  bottom: 30px;
+
+  // background-color: #ffffff16;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  font-family: 'Rajdhani';
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 7px 10px 5px 10px;
+  line-height: 1;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+@media (max-width: 450px){
+  #header {
+    display: none;
+    h1 {
+      left: 10px;
+      bottom: 10px;
+      font-size: 30px;
+    }
+  }
+}

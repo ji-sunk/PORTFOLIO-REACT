@@ -1,0 +1,257 @@
+// section11
+#section11 {
+  width: 100%;
+  height: 115vh;
+  background-color: #000;
+  position: relative;
+
+  .text {
+    position: absolute;
+    left: 3%;
+    top: 22%;
+    color: #ffff;
+    font-size: 10vw;
+    font-family: 'Squada One';
+    text-transform: uppercase;
+
+    ul {
+      line-height: 0.8;
+      letter-spacing: -0.5vw;
+
+      li:nth-child(2) {
+        color: #C7FF61;
+      }
+    }
+  }
+
+  .scroll {
+    position: relative;
+    right: -188%;
+    bottom: -9vw;
+
+    .line {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 35vw;
+      height: 1.6px;
+      background-color: #C7FF61;
+      display: block;
+    }
+
+    h4 {
+      position: absolute;
+      left: -8.8%;
+      bottom: 2px;
+      font-size: 1.4vw;
+      line-height: 1.2;
+      font-family: 'Rajdhani';
+      font-weight: 300;
+      color: #C7FF61;
+    }
+
+    .arrow {
+      position: absolute;
+      right: 0;
+      bottom: 0.4vw;
+      width: 2.5vw;
+      height: 2.5vw;
+      background-image: url(../../images/section11/arrow.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+}
+
+@media (max-width: 1200px){
+  #section11 {
+    flex-direction: column;
+
+    .text {
+      position: absolute;
+      left: 3%;
+      top: 22%;
+      color: #ffff;
+      font-size: 15vw;
+      font-family: 'Squada One';
+      text-transform: uppercase;
+  
+      ul {
+        line-height: 0.8;
+        letter-spacing: -0.5vw;
+  
+        li:nth-child(2) {
+          color: #C7FF61;
+        }
+      }
+      .scroll {
+        position: relative;
+        right: -188%;
+        bottom: -320px;
+    
+        .line {
+          position: absolute;
+          right: 104.5%;
+          bottom: 0;
+          width: 92.5vw;
+          height: 1.6px;
+          background-color: #C7FF61;
+          display: block;
+        }
+    
+        h4 {
+          position: absolute;
+          left: -188%;
+          bottom: 2px;
+          font-size: 3vw;
+          line-height: 1.2;
+          font-family: 'Rajdhani';
+          font-weight: 300;
+          color: #C7FF61;
+        }
+    
+        .arrow {
+          position: absolute;
+          left: -6.3vw;
+          bottom: 0.9vw;
+          width: 4vw;
+          height: 4vw;
+          background-image: url(../../images/section11/arrow.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 750px){
+  #section11 {
+    flex-direction: column;
+
+    .text {
+      position: absolute;
+      left: 3%;
+      top: 22%;
+      color: #ffff;
+      font-size: 18vw;
+      font-family: 'Squada One';
+      text-transform: uppercase;
+  
+      ul {
+        line-height: 0.8;
+        letter-spacing: -0.5vw;
+  
+        li:nth-child(2) {
+          color: #C7FF61;
+        }
+      }
+      .scroll {
+        position: relative;
+        right: -188%;
+        bottom: -320px;
+    
+        .line {
+          position: absolute;
+          right: 136.7%;
+          bottom: 0;
+          width: 92.5vw;
+          height: 1.6px;
+          background-color: #C7FF61;
+          display: block;
+        }
+    
+        h4 {
+          position: absolute;
+          left: -188%;
+          bottom: 2px;
+          font-size: 4vw;
+          line-height: 1.2;
+          font-family: 'Rajdhani';
+          font-weight: 300;
+          color: #C7FF61;
+        }
+    
+        .arrow {
+          position: absolute;
+          left: -27.8vw;
+          bottom: 0.9vw;
+          width: 5vw;
+          height: 5vw;
+          background-image: url(../../images/section11/arrow.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px){
+  
+  #section11 {
+    flex-direction: column;
+
+    .text {
+      position: absolute;
+      left: 3%;
+      top: 22%;
+      color: #ffff;
+      font-size: 28vw;
+      font-family: 'Squada One';
+      text-transform: uppercase;
+  
+      ul {
+        line-height: 0.8;
+        letter-spacing: -0.5vw;
+  
+        li:nth-child(2) {
+          color: #C7FF61;
+        }
+      }
+      .scroll {
+        position: relative;
+        right: -188%;
+        bottom: -220px;
+    
+        .line {
+          position: absolute;
+          right: 192.5%;
+          bottom: 0;
+          width: 92vw;
+          height: 1.6px;
+          background-color: #C7FF61;
+          display: block;
+        }
+    
+        h4 {
+          position: absolute;
+          left: -187%;
+          bottom: 2px;
+          font-size: 7vw;
+          line-height: 1.2;
+          font-family: 'Rajdhani';
+          font-weight: 400;
+          color: #C7FF61;
+        }
+    
+        .arrow {
+          position: absolute;
+          left: -100vw;
+          bottom: 2.9vw;
+          width: 10vw;
+          height: 10vw;
+          background-image: url(../../images/section11/arrow.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+      }
+    }
+  }
+}
+
+

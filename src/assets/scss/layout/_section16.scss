@@ -1,0 +1,186 @@
+// section16
+#section16 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+
+  .thx > ul {
+    position: absolute;
+    left: 3%;
+    bottom: 18%;
+    color: #ffff;
+    font-size: 10vw;
+    font-family: 'Squada One';
+    text-transform: uppercase;
+    line-height: 0.8;
+    letter-spacing: -0.5px;
+
+    > li {
+      &:first-child, &:last-child {
+        color: #C7FF61;
+      }
+    }
+  }
+
+  .mail ul {
+    position: absolute;
+    right: 20.5%;
+    top: 34%;
+    font-size: 1.8vw;
+    line-height: 1.2;
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    color: #fff;
+
+    li a {
+      color: #C7FF61;
+    }
+  }
+
+  span {
+    position: absolute;
+    right: 3%;
+    top: 34%;
+    font-size: 1vw;
+    line-height: 1.2;
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    color: #C7FF61;
+  }
+
+  .menu ul {
+    display: flex;
+    position: absolute;
+    right: 1.8%;
+    bottom: 18%;
+    font-size: 1.8vw;
+    line-height: 1.2;
+    font-family: 'Rajdhani';
+    font-weight: 400;
+
+    li {
+      margin-right: 20px;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px){
+  #section16 {
+    .thx {
+      ul {
+        top: 4%;
+      }
+    }
+    .mail {
+      ul {
+        right: 3%;
+        top: 45%;
+        text-align: right;
+        font-size: 28px;
+      }
+    }
+    .menu {
+      ul {
+        font-size: 2.2vw;
+      }
+    }
+    span {
+      font-size: 1.2vw;
+    }
+  }
+}
+
+@media (max-width: 1000px){
+  #section16 {
+    
+    .thx {
+      ul {
+        font-size: 12vw;
+        top: 4%;
+      }
+    }
+    .mail {
+      ul {
+        right: 3%;
+        top: 45%;
+        text-align: right;
+        font-size: 28px;
+      }
+    }
+    .menu {
+      ul {
+        font-size: 2.2vw;
+      }
+    }
+    span {
+      font-size: 2vw;
+    }
+  }
+}
+
+@media (max-width: 700px){
+  #section16 {
+    
+    .thx {
+      ul {
+        font-size: 110px;
+        top: 4%;
+      }
+    }
+    .mail {
+      ul {
+        right: 3%;
+        top: 45%;
+        text-align: right;
+        font-size: 29px;
+      }
+    }
+    .menu {
+      ul {
+        bottom: 22%;
+        font-size: 4vw;
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 450px){
+  #section16 {
+    
+    .thx {
+      ul {
+        font-size: 80px;
+        top: 4%;
+      }
+    }
+    .mail {
+      ul {
+        right: 3%;
+        top: 38%;
+        text-align: right;
+        font-size: 25px;
+      }
+    }
+    .menu {
+      
+      ul {
+        flex-direction: column;
+        text-align: right;
+        bottom: 12%;
+        right: 0;
+        font-size: 6vw;
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+}

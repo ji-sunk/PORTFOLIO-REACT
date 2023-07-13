@@ -1,0 +1,495 @@
+//section9
+#section9 {
+  width: 100%;
+  height: 100vh;
+  background-color: #E0E3E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title span {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: #000;
+    font-family: 'Squada One';
+    font-size: 150px;
+    line-height: 0.8;
+    letter-spacing: -0.5px;
+    z-index: 100;
+
+    &:last-child {
+      position: absolute;
+      top: 205px;
+      left: 1%;
+
+      em {
+        color: #E0E3E7;
+        -webkit-text-stroke: 1px #000;
+      }
+    }
+  }
+
+  .img {
+    width: 60vw;
+    height: 60vw;
+    background-image: url(../../images/section9/team01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .explain {
+    position: absolute;
+    bottom: 310px;
+    right: 55px;
+
+    .aa {
+      display: flex;
+      position: absolute;
+      bottom: 55px;
+      left: 0;
+
+      .arrow1 {
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        width: 2.5vw;
+        height: 2.5vw;
+        background-image: url(../../images/section9/arrow.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+      
+      .line1 {
+        width: 200px;
+        height: 2px;
+        background-color: #000;
+        display: block;
+        margin:0 0 10px 3px;
+        
+        a {
+          position: absolute;
+          left: 0;
+          top: -30px;
+          font-size: 30px;
+          line-height: 1.2;
+          font-family: 'Rajdhani';
+          font-weight: 400;
+          color: #000;
+        }
+      }
+    }
+    .ab {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      h3 {
+        color: #000;
+        font-family: 'Squada One';
+        font-size: 85px;
+        line-height: 0.65;
+        letter-spacing: -0.3vw;
+        text-transform: uppercase;
+        z-index: 100;
+      }
+      .arrow {
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        width: 2.5vw;
+        height: 2.5vw;
+        background-image: url(../../images/section9/arrow.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+      
+      .line {
+        display: flex;
+        width: 269px;
+        height: 2px;
+        background-color: #000;
+        display: block;
+        
+        a {
+          position: absolute;
+          left: 210px;
+          top: 22px;
+          font-size: 30px;
+          line-height: 1.2;
+          font-family: 'Rajdhani';
+          font-weight: 400;
+          color: #000;
+        }
+      }
+    }
+    
+    .text {
+      position: absolute;
+      width: 100%;
+      right: -1%;
+
+      p {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        text-align: left;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1500px){
+  #section9 {
+    flex-direction: column;
+    position: relative;
+    .title {
+
+      span {
+        top: 20px;
+        font-size: 130px;
+        &:last-child {
+          position: absolute;
+          top: 130px;
+        }
+      }
+    }
+    .img {
+      width: 70vw;
+      height: 70vw;
+      position: absolute;
+      left: -85px;
+      bottom: -150px;
+    }
+  }
+}
+
+@media (max-width: 1200px){
+  #section9 {
+    flex-direction: column;
+    position: relative;
+
+    .img {
+      width: 800px;
+      height: 800px;
+      position: absolute;
+      left: -85px;
+      bottom: 20px;
+    }
+    .explain {
+      position: absolute;
+      bottom: 5%;
+      left: 7%;
+      .ab {
+        display: flex;
+        justify-content:flex-start;
+        h3 {
+          margin-right: 10px;
+        }
+        .line {
+          a {
+            position: absolute;
+            left: 227px;
+          }
+        }
+        .arrow {
+          position: absolute;
+          left: 465px;
+          top: 18px;
+          width: 30px;
+          height: 35px;
+        }
+      }
+      .aa {
+        position: absolute;
+        top: -10px;
+
+        .arrow1 {
+          position: absolute;
+          right: 0;
+          top: -36px;
+          width: 30px;
+          height: 35px;
+        }
+      }
+      .text {
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px){
+  #section9 {
+    flex-direction: column;
+    position: relative;
+    .title {
+
+      span {
+        // font-size: 16vw;
+        left: 2%;
+        &:last-child {
+          position: absolute;
+          // top: 180px;
+          left: 2%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 718px){
+  #section9 {
+    flex-direction: column;
+    position: relative;
+    .title {
+
+      span {
+        // font-size: 16vw;
+        left: 2%;
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 664px){
+  #section9 {
+    flex-direction: column;
+    position: relative;
+    .title {
+
+      span {
+        font-size: 130px;
+        left: 2%;
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+    .img {
+      width: 800px;
+      height: 800px;
+      position: absolute;
+      left: -120px;
+      bottom: 3%;
+    }
+    .explain {
+      position: absolute;
+      bottom: 5%;
+      left: 43px;
+      .ab {
+        display: flex;
+        justify-content:flex-start;
+        h3 {
+          margin-right: 10px;
+        }
+        .line {
+          width: 234px;
+          a {
+            position: absolute;
+            left: 237px;
+          }
+        }
+        .arrow {
+          position: absolute;
+          left: 438px;
+          top: 18px;
+          width: 30px;
+          height: 35px;
+        }
+      }
+      .aa {
+        position: absolute;
+        top: -10px;
+
+        .arrow1 {
+          position: absolute;
+          right: 0;
+          top: -36px;
+          width: 30px;
+          height: 35px;
+        }
+      }
+      .text {
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px){
+  #section9 {
+    flex-direction: column;
+    position: relative;
+    .title {
+
+      span {
+        font-size: 120px;
+        left: 6.5%;
+        top: 5%;
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+    .img {
+      width: 700px;
+      height: 700px;
+      position: absolute;
+      left: -19.5%;
+      bottom: 10%;
+    }
+    .explain {
+      position: absolute;
+      bottom: 10%;
+      left: 43px;
+      .ab {
+        display: flex;
+        justify-content:flex-start;
+        h3 {
+          font-size: 60px;
+          margin-right: 10px;
+        }
+        .line {
+          width: 230px;
+          a {
+            font-size: 25px;
+            position: absolute;
+            left: 168px;
+            top: 10px;
+          }
+        }
+        .arrow {
+          position: absolute;
+          left: 365px;
+          top: 0px;
+          width: 30px;
+          height: 35px;
+        }
+      }
+      .aa {
+        position: absolute;
+        top: -10px;
+
+        .line1 {
+
+          a {
+            font-size: 25px;
+            left: 3px;
+          }
+        }
+
+        .arrow1 {
+          position: absolute;
+          right: 0;
+          top: -36px;
+          width: 30px;
+          height: 35px;
+        }
+      }
+      .text {
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px){
+  #section9 {
+    flex-direction: column;
+    position: relative;
+    .title {
+
+      span {
+        font-size: 80px;
+        left: 7%;
+        top:9%;
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+    .img {
+      width: 450px;
+      height: 450px;
+      position: absolute;
+      left: -19%;
+      bottom: 16%;
+    }
+    .explain {
+      position: absolute;
+      bottom: 12%;
+      left: 3%;
+      .ab {
+        display: flex;
+        justify-content:flex-start;
+        h3 {
+          font-size: 50px;
+          margin-right: 10px;
+        }
+        .line {
+          width: 200px;
+          a {
+            font-size: 20px;
+            position: absolute;
+            left: 145px;
+            top: 10px;
+          }
+        }
+        .arrow {
+          position: absolute;
+          left: 90%;
+          top: 2px;
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .aa {
+        position: absolute;
+        top: -10px;
+
+        .line1 {
+          width: 130px;
+          a {
+            font-size: 20px;
+            left: 3px;
+            top: -23px;
+
+          }
+        }
+
+        .arrow1 {
+          position: absolute;
+          right: 0;
+          top: -29px;
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .text {
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,945 @@
+// section14
+#section14 {
+  width: 100%;
+  height: 120vh;
+  background-color: #E0E3E7;
+  position: relative;
+
+  .header {}
+
+  span {
+    &:first-child {
+      position: absolute;
+      left: 3%;
+      top: 7%;
+      font-size: 22px;
+      line-height: 1.2;
+      font-family: 'Rajdhani';
+      font-weight: 400;
+    }
+
+    &:last-child {
+      position: absolute;
+      right: 3%;
+      top: 7%;
+      font-size: 22px;
+      line-height: 1.2;
+      font-family: 'Rajdhani';
+      font-weight: 400;
+    }
+  }
+
+  .section__inner {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+
+      .img1 {
+        position: absolute;
+        top: 25.5%;
+        left: 2%;
+        width: 18vw;
+        height: 18vw;
+        background-image: url(../../images/section14/seolhee01.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // filter: brightness(80%);
+        transition: filter 0.3s ease;
+        cursor: pointer;
+
+        &:hover span {
+          filter: brightness(100%);
+        }
+      }
+
+      div:nth-child(1) span {
+        position: absolute;
+        top: 82%;
+        left: 12%;
+        font-size: 2vw;
+        font-family: 'Rajdhani';
+        font-weight: 400;
+        color: #fff;
+        transition: all 0.3s;
+        filter: brightness(80%);
+      }
+
+      span.active {
+        color: #C7FF61;
+      }
+
+      .img2 {
+        position: absolute;
+        top: 25.5%;
+        left: 18.7%;
+        width: 18vw;
+        height: 18vw;
+        background-image: url(../../images/section14/seolhee02.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // filter: brightness(80%);
+        transition: filter 0.3s ease;
+        cursor: pointer;
+
+        &:hover span {
+          filter: brightness(100%);
+        }
+      }
+
+      > div:nth-child(2) span {
+        position: absolute;
+        top: 82%;
+        left: 12%;
+        font-size: 2vw;
+        font-family: 'Rajdhani';
+        font-weight: 400;
+        color: #fff;
+        transition: all 0.3s;
+        filter: brightness(70%);
+      }
+
+      .img3 {
+        position: absolute;
+        top: 25.5%;
+        left: 35.4%;
+        width: 18vw;
+        height: 18vw;
+        background-image: url(../../images/section14/seolhee03.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // filter: brightness(80%);
+        transition: filter 0.3s ease;
+        cursor: pointer;
+
+        &:hover span {
+          filter: brightness(100%);
+        }
+      }
+
+      > div:nth-child(3) span {
+        position: absolute;
+        top: 82%;
+        left: 12%;
+        font-size: 2vw;
+        font-family: 'Rajdhani';
+        font-weight: 400;
+        color: #fff;
+        filter: brightness(60%);
+        transition: all 0.3s;
+      }
+
+      .img4 {
+        position: absolute;
+        top: 58.1%;
+        left: 2%;
+        width: 18vw;
+        height: 18vw;
+        background-image: url(../../images/section14/seolhee04.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // filter: brightness(80%);
+        transition: filter 0.3s ease;
+        cursor: pointer;
+
+        &:hover span {
+          filter: brightness(100%);
+        }
+      }
+
+      > div:nth-child(4) span {
+        position: absolute;
+        top: 82%;
+        left: 12%;
+        font-size: 2vw;
+        font-family: 'Rajdhani';
+        font-weight: 400;
+        color: #fff;
+        transition: all 0.3s;
+        filter: brightness(70%);
+      }
+
+      .img5 {
+        position: absolute;
+        top: 58.1%;
+        left: 18.7%;
+        width: 18vw;
+        height: 18vw;
+        background-image: url(../../images/section14/seolhee05.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // filter: brightness(80%);
+        transition: filter 0.3s ease;
+        cursor: pointer;
+
+        &:hover span {
+          filter: brightness(100%);
+        }
+      }
+
+      > div:nth-child(5) span {
+        position: absolute;
+        top: 82%;
+        left: 12%;
+        font-size: 2vw;
+        font-family: 'Rajdhani';
+        font-weight: 400;
+        color: #fff;
+        transition: all 0.3s;
+        filter: brightness(10%);
+      }
+    }
+
+    .right {
+      color: #000;
+
+      .METICULOUS > h3 {
+        position: absolute;
+        top: 25%;
+        right: 16%;
+        font-size: 4.5vw;
+        font-family: 'Squada One';
+        text-transform: uppercase;
+        line-height: 0.8;
+        letter-spacing: -0.17vw;
+      }
+      .METICULOUS span {
+        position: absolute;
+        top: 34%;
+        right: 31.2%;
+        font-size: 1.2vw;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: -0.17vw;
+      }
+      .METICULOUS p {
+        position: absolute;
+        top: 46%;
+        right: 8.5%;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: 0;
+      }
+
+      .RATIONAL > h3 {
+        position: absolute;
+        top: 25%;
+        right: 20%;
+        font-size: 4.5vw;
+        font-family: 'Squada One';
+        text-transform: uppercase;
+        line-height: 0.8;
+        letter-spacing: -0.17vw;
+      }
+      .RATIONAL span {
+        position: absolute;
+        top: 34%;
+        right: 26%;
+        font-size: 1.2vw;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: -0.17vw;
+      }
+      .RATIONAL p {
+        position: absolute;
+        top: 46%;
+        right: 11%;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: 0;
+      }
+
+      .EARNEST > h3 {
+        position: absolute;
+        top: 25%;
+        right: 21.7%;
+        font-size: 4.5vw;
+        font-family: 'Squada One';
+        text-transform: uppercase;
+        line-height: 0.8;
+        letter-spacing: -0.17vw;
+      }
+      .EARNEST span {
+        position: absolute;
+        top: 34%;
+        right: 31%;
+        font-size: 1.2vw;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: -0.17vw;
+      }
+      .EARNEST p {
+        position: absolute;
+        top: 46%;
+        right: 10.2%;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: 0;
+      }
+
+      .SOCIABLE > h3 {
+        position: absolute;
+        top: 25%;
+        right: 20.4%;
+        font-size: 4.5vw;
+        font-family: 'Squada One';
+        text-transform: uppercase;
+        line-height: 0.8;
+        letter-spacing: -0.17vw;
+      }
+      .SOCIABLE span {
+        position: absolute;
+        top: 34%;
+        right: 30.3%;
+        font-size: 1.2vw;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: -0.17vw;
+      }
+      .SOCIABLE p {
+        position: absolute;
+        top: 46%;
+        right: 6.2%;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: 0;
+      }
+
+      .GO-AHEAD > h3 {
+        position: absolute;
+        top: 25%;
+        right: 18.8%;
+        font-size: 4.5vw;
+        font-family: 'Squada One';
+        text-transform: uppercase;
+        line-height: 0.8;
+        letter-spacing: -0.17vw;
+      }
+      .GO-AHEAD span {
+        position: absolute;
+        top: 34%;
+        right: 30.3%;
+        font-size: 1.2vw;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: -0.17vw;
+      }
+      .GO-AHEAD p {
+        position: absolute;
+        top: 46%;
+        right: 6.3%;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: 0;
+      }
+      
+
+      p {
+        position: absolute;
+        top: 46%;
+        right: 8.5%;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Chosunilbo_myungjo';
+        color: #000;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+#section14 .section__inner .left > div.active span {
+  color: #C7FF61;
+  filter: brightness(100%);
+}
+
+
+.METICULOUS {
+  display: block;
+}
+.RATIONAL,
+.EARNEST,
+.SOCIABLE,
+.GO-AHEAD {
+  display: none;
+}
+
+.METICULOUS.active {
+  display: block;
+  
+}
+.RATIONAL.active,
+.EARNEST.active,
+.SOCIABLE.active,
+.GO-AHEAD.active {
+  display: block;
+}
+
+@media (max-width: 1500px){
+  #section14 {
+    .section__inner {
+      .left {
+        .img1 {
+          width: 19vw;
+          height: 19vw;
+        }
+        .img2 {
+          left: 19.5%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img3 {
+          left: 37%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img4 {
+          top: 53.5%;
+          left: 2%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img5 {
+          top: 53.5%;
+          left: 19.5%;
+          width: 19vw;
+          height: 19vw;
+        }
+      }
+      .right {
+        .METICULOUS p {
+          right: 3.5%;
+        }
+        .RATIONAL p {
+          right: 6%;
+        }
+        .EARNEST p {
+          right: 5.5%;
+        }
+        .SOCIABLE p {
+          right: 0.5%;
+        }
+        .GO-AHEAD p {
+          right: 0.5%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px){
+  #section14 {
+    .section__inner {
+      .left {
+        .img1 {
+          width: 19vw;
+          height: 19vw;
+        }
+        .img2 {
+          left: 19.5%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img3 {
+          left: 37%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img4 {
+          top: 53.5%;
+          left: 2%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img5 {
+          top: 53.5%;
+          left: 19.5%;
+          width: 19vw;
+          height: 19vw;
+        }
+      }
+      .right {
+        .METICULOUS {
+          text-align: right;
+          h3 {
+            right: 4%;
+          }
+          span {
+            right: 4%;
+          }
+          p {
+            right: 3.5%;
+          }
+        }
+        
+        .RATIONAL {
+          text-align: right;
+          h3 {
+            right: 4%;
+          }
+          span {
+            right: 4%;
+          }
+          p {
+            right: 4%;
+          }
+        }
+        
+        .EARNEST {
+          text-align: right;
+          h3 {
+            right: 4%;
+          }
+          span {
+            right: 4.2%;
+          }
+          p {
+            right: 4%;
+          }
+        }
+        .SOCIABLE {
+          text-align: right;
+          h3 {
+            right: 4%;
+          }
+          span {
+            right: 4.2%;
+          }
+          p {
+            right: 4%;
+          }
+        }
+        .GO-AHEAD {
+          text-align: right;
+          h3 {
+            right: 4%;
+          }
+          span {
+            right: 4.2%;
+          }
+          p {
+            right: 4%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px){
+  #section14 {
+    .section__inner {
+      .left {
+        .img1 {
+          top: 25.5%;
+          left: 2%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img2 {
+          left: 19.5%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img3 {
+          top: 43%;
+          left: 2%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img4 {
+          top: 60.5%;
+          left: 2%;
+          width: 19vw;
+          height: 19vw;
+        }
+        .img5 {
+          top: 60.5%;
+          left: 19.5%;
+          width: 19vw;
+          height: 19vw;
+        }
+      }
+      .right {
+        .METICULOUS {
+          text-align: right;
+          h3 {
+            font-size: 5.5vw;
+            right: 4%;
+          }
+          span {
+            font-size: 16px;
+            right: 4%;
+          }
+          p {
+            right: 3.5%;
+            font-size: 16px;
+          }
+        }
+        
+        .RATIONAL {
+          text-align: right;
+          h3 {
+            font-size: 5.5vw;
+            right: 4%;
+          }
+          span {
+            font-size: 16px;
+            right: 4%;
+          }
+          p {
+            font-size: 16px;
+            right: 4%;
+          }
+        }
+        
+        .EARNEST {
+          text-align: right;
+          h3 {
+            font-size: 5.5vw;
+            right: 4%;
+          }
+          span {
+            font-size: 16px;
+            right: 4.2%;
+          }
+          p {
+            font-size: 16px;
+            right: 4%;
+          }
+        }
+        .SOCIABLE {
+          text-align: right;
+          h3 {
+            font-size: 5.5vw;
+            right: 4%;
+          }
+          span {
+            font-size: 16px;
+            right: 4.2%;
+          }
+          p {
+            font-size: 16px;
+            right: 4%;
+          }
+        }
+        .GO-AHEAD {
+          text-align: right;
+          h3 {
+            font-size: 5.5vw;
+            right: 4%;
+          }
+          span {
+            font-size: 16px;
+            right: 4.2%;
+          }
+          p {
+            font-size: 16px;
+            right: 4%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px){
+  #section14 {
+    .section__inner {
+      .left {
+        .img1 {
+          top: 25.5%;
+          left: 2%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img2 {
+          left: 20.5%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img3 {
+          top: 25.5%;
+          left: 39%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img4 {
+          top: 25.5%;
+          left: 57.5%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img5 {
+          top: 25.5%;
+          left: 76%;
+          width: 20vw;
+          height: 20vw;
+        }
+      }
+      .right {
+        
+        .METICULOUS {
+          text-align: right;
+          flex-direction: column;
+          h3 {
+            font-size: 6.5vw;
+            right: 5%;
+            top: 48%;
+          }
+          span {
+            font-size: 15px;
+            right: 5%;
+            top: 56%;
+          }
+          p {
+            right: 5%;
+            font-size: 15px;
+            top: 62%;
+          }
+        }
+        
+        .RATIONAL {
+          text-align: right;
+          h3 {
+            font-size: 6.5vw;
+            right: 5%;
+            top: 48%;
+          }
+          span {
+            font-size: 16px;
+            right: 5.2%;
+            top: 58%;
+          }
+          p {
+            font-size: 16px;
+            right: 5%;
+            top: 65%;
+          }
+        }
+        
+        .EARNEST {
+          text-align: right;
+          h3 {
+            font-size: 6.5vw;
+            right: 5%;
+            top: 48%;
+          }
+          span {
+            font-size: 16px;
+            right: 5%;
+            top: 58%;
+          }
+          p {
+            font-size: 16px;
+            right: 5%;
+            top: 65%;
+          }
+        }
+        .SOCIABLE {
+          text-align: right;
+          h3 {
+            font-size: 6.5vw;
+            right: 5%;
+            top: 48%;
+          }
+          span {
+            font-size: 16px;
+            right: 5%;
+            top: 58%;
+          }
+          p {
+            font-size: 16px;
+            right: 5%;
+            top: 65%;
+          }
+        }
+        .GO-AHEAD {
+          text-align: right;
+          h3 {
+            font-size: 6.5vw;
+            right: 5%;
+            top: 48%;
+          }
+          span {
+            font-size: 16px;
+            right: 5%;
+            top: 58%;
+          }
+          p {
+            font-size: 16px;
+            right: 5%;
+            top: 65%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px){
+  #section14 {
+
+    .header {
+      span {
+        &:first-child {
+          font-size: 16px;
+        }
+
+        &:last-child {
+          font-size: 16px;
+        }
+      }
+    }
+    .section__inner {
+      .left {
+        .img1 {
+          top: 19.5%;
+          left: 2%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img2 {
+          top: 19.5%;
+          left: 20.5%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img3 {
+         top: 19.5%;
+          left: 39%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img4 {
+         top: 19.5%;
+          left: 57.5%;
+          width: 20vw;
+          height: 20vw;
+        }
+        .img5 {
+         top: 19.5%;
+          left: 76%;
+          width: 20vw;
+          height: 20vw;
+        }
+      }
+      .right {
+        
+        .METICULOUS {
+          text-align: right;
+          flex-direction: column;
+          h3 {
+            font-size: 12vw;
+            right: 5%;
+            top: 40%;
+          }
+          span {
+            font-size: 15px;
+            right: 5%;
+            top: 48%;
+          }
+          p {
+            right: 5%;
+            font-size: 12px;
+            top: 55%;
+          }
+        }
+        
+        .RATIONAL {
+          text-align: right;
+          h3 {
+            font-size: 12vw;
+            right: 5%;
+            top: 40%;
+          }
+          span {
+            font-size: 15px;
+            right: 5%;
+            top: 48%;
+          }
+          p {
+            right: 5%;
+            font-size: 12px;
+            top: 55%;
+          }
+        }
+        
+        .EARNEST {
+          text-align: right;
+          h3 {
+            font-size: 12vw;
+            right: 5%;
+            top: 40%;
+          }
+          span {
+            font-size: 15px;
+            right: 5%;
+            top: 48%;
+          }
+          p {
+            right: 5%;
+            font-size: 12px;
+            top: 55%;
+          }
+        }
+        .SOCIABLE {
+          text-align: right;
+            h3 {
+            font-size: 12vw;
+            right: 5%;
+            top: 40%;
+          }
+          span {
+            font-size: 15px;
+            right: 5%;
+            top: 48%;
+          }
+          p {
+            right: 3%;
+            font-size: 11px;
+            top: 55%;
+          }
+        }
+        .GO-AHEAD {
+          text-align: right;
+          h3 {
+            font-size: 12vw;
+            right: 5%;
+            top: 40%;
+          }
+          span {
+            font-size: 15px;
+            right: 5%;
+            top: 48%;
+          }
+          p {
+            right: 3%;
+            font-size: 12px;
+            top: 55%;
+          }
+        }
+      }
+    }
+  }
+}
