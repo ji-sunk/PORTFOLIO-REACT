@@ -15,4 +15,5 @@ const lenis = () => {
   requestAnimationFrame(raf);
 };
 
+
 export default lenis;
